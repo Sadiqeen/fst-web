@@ -21,7 +21,7 @@
         @if (count($fst_news) < 12)
             @for ($i = count($fst_news); $i < 12; $i++)
             <div class="col-md-4 mb-3">
-                <a class="card text-decoration-none student-activities-text card-hover" href="{{ route('fst.blog.show', $news->slug ) }}">
+                <a class="card text-decoration-none student-activities-text card-hover" href="#">
                     <img class="card-img-top" height="300px" style="object-fit: cover;"  src="https://placehold.it/500x500" alt="Card image cap">
                     <div class="card-body">
                         <h4 class="card-title">Upcoming...</h4>
