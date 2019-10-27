@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-URL::forceSchema("https");
+\URL::forceScheme('https');
 
 Route::resource('/', 'HomeController')->only([
     'index', 'show'
